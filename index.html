@@ -9,7 +9,9 @@
 <body>
     <h1>Bem vindo ao site MAIS ESTRANHO DO MUND-</h1>
     <p>Um site criado por um ser humano anormal neste planeta</p>
-    <img src="https://i.redd.it/nerd-emoji-3873x3873-and-5000x5000-respectively-v0-k76edqwtavu81.jpg?width=5000&format=pjpg&auto=webp&s=747a755a0189794da91c4c7821a10d5180feecb8" width="400" height="400" alt="omar">
+    <div class="container">
+    <img src="https://i.redd.it/nerd-emoji-3873x3873-and-5000x5000-respectively-v0-k76edqwtavu81.jpg?width=5000&format=pjpg&auto=webp&s=747a755a0189794da91c4c7821a10d5180feecb8" width="400" height="400" alt="olhe você aqui">
+        <img src="https://preview.redd.it/please-explain-to-me-the-genius-of-the-film-taxi-driver-v0-27qpcvea7vse1.jpeg?width=640&crop=smart&auto=webp&s=e4d851e4b658a405931dc772e463bf2aacdc61ac" width="400" height="300" alt='puta que pariu">
     <style>
         .btn-toggle {
             padding: 8px 16px;
@@ -40,7 +42,14 @@
             border: 2px solid transparent;
         }
 
-        .color-dot.selected { border-color: #333; }
+        .container {
+    display: flex; /* Ativa o modo flexível */
+    gap: 10px;    /* Cria um espaço entre as imagens */
+  }
+  .container img {
+    width: 300px; /* Define um tamanho fixo ou use % */
+    height: auto;
+  }
     </style>
 </body>
 </html>

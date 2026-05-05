@@ -1,1 +1,10 @@
+.sidenav {
+  display: flex;
+  flex-direction: column; /* Coloca os links um abaixo do outro */
+  justify-content: center; /* Centraliza verticalmente (se a div tiver altura) */
+  align-items: center;    /* Centraliza horizontalmente */
+  text-align: center;     /* Garante que o texto dentro do link fique centralizado */
+  
+  height: 100vh; /* Opcional: faz a barra ocupar a altura toda da tela */
+}
 
